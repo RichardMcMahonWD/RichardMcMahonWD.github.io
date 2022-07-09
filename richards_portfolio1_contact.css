@@ -1,0 +1,170 @@
+body{
+	background-image:url('old_paper_background.JPG');
+font-size:20px;
+	
+}
+
+
+
+
+
+
+.container{
+	
+	display:flex;
+	flex-direction:row;
+	
+}
+
+
+header{
+	-border:solid blue 2px;
+	
+}
+
+.name_and_title{
+	
+	-border:solid black 2px;
+	display:inline-block;
+	width:50%;
+	
+	position:relative;
+	font-family: 'American Typewriter', sans-serif;
+	text-align: center;
+	
+	
+	
+	
+}
+
+
+nav{
+	-border:solid red 2px;
+	display:inline-block;
+	width:40%;
+	
+	position:relative;
+	-left:50%;
+	text-align: center;
+}
+
+nav li{
+	display:inline;
+	padding-left:20px;
+	font-size:16px;
+}
+a:link {
+  color:black;
+  text-decoration: none;
+  font-family: 'American Typewriter', sans-serif;
+  font-weight:bold;
+}
+a:visited {
+  color: black;
+  
+}
+
+a:hover{
+	
+	font-size:24px;
+	text-decoration:underline;
+}
+
+.avatar_image{
+	
+	display:block;
+	width:20%;
+	
+	position:relative;
+	left:60%;
+	
+	border-radius:10px;
+	
+}
+
+#avatar_img{
+	border:solid black 1px;
+	height:100%;
+	width:100%;
+	
+	border-radius:10px;
+	background-size:cover;
+	
+	
+}
+
+#contact{
+	
+	position:relative;
+	font-family: 'American Typewriter', sans-serif;
+	top:-225px;
+	left:150px;
+	font-size:20px;
+	
+	
+}
+
+
+@media only screen and (max-width: 1000px) {
+	
+	
+	.name_and_title{
+	
+	-border:solid black 2px;
+	display:block;
+	width:100%;
+	
+	position:relative;
+	font-family: 'American Typewriter', sans-serif;
+	text-align: center;
+	
+	
+	
+	
+}
+
+
+
+nav{
+	-border:solid red 2px;
+	display:block;
+	width:100%;
+	
+	position:relative;
+	-left:50%;
+	text-align: center;
+	padding-bottom:20px;
+}
+
+
+
+#contact{
+	
+	position:relative;
+	font-family: 'American Typewriter', sans-serif;
+	top:10px;
+	left:50px;
+	font-size:20px;
+	
+	
+}
+
+.avatar_image{
+	
+	display:block;
+	width:50%;
+	
+	position:relative;
+	left:20%;
+	
+	border-radius:10px;
+	padding-top:20px;
+	
+}
+
+	
+}
+
+
+
+
